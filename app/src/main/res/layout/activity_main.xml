@@ -31,7 +31,8 @@
         app:layout_constraintEnd_toEndOf="@+id/textViewLike"
         app:layout_constraintStart_toStartOf="@+id/textViewLike"
         app:layout_constraintTop_toBottomOf="@+id/textViewLike"
-        app:srcCompat="@drawable/ic_thumb_up_black_24dp" />
+        app:srcCompat="@drawable/ic_thumb_up_black_24dp"
+        tools:ignore="VectorDrawableCompat" />
 
     <TextView
         android:id="@+id/textViewDislike"
@@ -44,7 +45,8 @@
         android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="32dp" />
 
     <ImageView
         android:id="@+id/imageViewDislike"
@@ -58,6 +60,7 @@
         app:layout_constraintHorizontal_bias="0.384"
         app:layout_constraintStart_toStartOf="@+id/textViewDislike"
         app:layout_constraintTop_toBottomOf="@+id/textViewDislike"
-        app:srcCompat="@drawable/ic_thumb_down_black_24dp" />
+        app:srcCompat="@drawable/ic_thumb_down_black_24dp"
+        tools:ignore="VectorDrawableCompat" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
